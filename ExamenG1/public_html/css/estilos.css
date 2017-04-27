@@ -1,10 +1,72 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 26/04/2017, 07:05:25 PM
-    Author     : UPEU
-*/
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #cccccc;
+    
+}
+#conatiner{
+
+    margin-right: auto;
+    margin-left: auto;
+}
+#header1{
+   background: #ffffff;
+ 
+}
+nav{
+    
+}
+#navigation{
+    display: flex;
+    list-style: none;
+    float: right;
+    
+}
+#navigation li{
+    
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+    background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#fff));
+    background-image: linear-gradient(#ededed, #fff);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+    color: #ffffff;
+    text-decoration: none
+}
+
+#body{
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+   text-align: center;
+   color: #ffff33;
+   font: 150% sans-serif;
+}
+p{ 
+    text-align: center;    
+}
+.hedaer2{
+    background: #006699;
+    text-align: center;
+   
+}
+#footer{
+    background: #ff9900;
+    height: 150px;   
+}
+
+.connect{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
